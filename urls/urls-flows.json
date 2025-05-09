@@ -1,0 +1,46 @@
+{
+  "https://swap.kittypunch.xyz/": {
+    "domain": "kittypunch.xyz",
+    "classification": "unknown"
+  },
+  "https://www.pumpflow.meme/": {
+    "domain": "pumpflow.meme",
+    "classification": "unknown"
+  },
+  "https://app.more.markets/": {
+    "domain": "more.markets",
+    "classification": "unknown"
+  },
+  "https://www.ankr.com/staking/stake/flow": {
+    "domain": "ankr.com",
+    "classification": "unknown"
+  },
+  "https://stable.kittypunch.xyz/": {
+    "domain": "kittypunch.xyz",
+    "classification": "unknown"
+  },
+  "https://app.kittypunch.xyz/": {
+    "domain": "kittypunch.xyz",
+    "classification": "unknown"
+  },
+  "https://www.aisportspro.com/home": {
+    "domain": "aisportspro.com",
+    "classification": "unknown"
+  },
+  "https://beezie.io/claw": {
+    "domain": "beezie.io",
+    "classification": "unknown"
+  },
+  "https://nbatopshot.com/": {
+    "domain": "nbatopshot.com",
+    "classification": "unknown"
+  },
+  "https://flow.mintify.xyz/": {
+    "domain": "mintify.xyz",
+    "classification": "unknown"
+  },
+  "https://opensea.io/discover/chain/flow": {
+    "domain": "opensea.io",
+    "classification": "allowlist"
+  }
+}
