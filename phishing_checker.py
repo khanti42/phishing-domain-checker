@@ -79,11 +79,14 @@ def main():
 
     allowlist, fuzzylist, blocklist = fetch_lists()
     results = {}
+    has_threat_detected = False
 
     for url in urls:
         domain = extract_domain(url)
         classification = classify_domain(domain, allowlist, blocklist, fuzzylist)
         results[url] = {"domain": domain, "classification": classification}
+        if classification in ("fuzzylist", "blocklist"):
+            has_threat_detected = True
 
     if args.output == "terminal":
         output_terminal(results)
@@ -91,5 +94,7 @@ def main():
         output_json(results)
     elif args.output == "csv":
         output_csv(results)
+
+    sys.exit(2 if has_threat_detected else 0)
 
 main()
